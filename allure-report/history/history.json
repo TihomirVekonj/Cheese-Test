@@ -1,0 +1,102 @@
+{
+  "d7f3c356ada0811c3130ab47ad03015e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762871d3031c75a5",
+      "status" : "skipped",
+      "statusDetails" : "public void com.tests.mypackage.CheeseTest.testPageObjects() throws java.lang.Exception is @Disabled",
+      "time" : {
+        "start" : 1652108859220,
+        "stop" : 1652108859220,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d3e5fa16d118e8dd13e486b3c96f8724" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5dbb95eb02ff0da5",
+      "status" : "skipped",
+      "statusDetails" : "void com.tests.mypackage.ParamsTest.test_int_arrays(int) is @Disabled",
+      "time" : {
+        "start" : 1652108857044,
+        "stop" : 1652108857044,
+        "duration" : 0
+      }
+    } ]
+  },
+  "741395c19a1e2934e5cf1761ab0aab88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a4e8dedd39f4a4a",
+      "status" : "skipped",
+      "statusDetails" : "void com.tests.mypackage.ParamsTest.test_string_arrays(java.lang.String) is @Disabled",
+      "time" : {
+        "start" : 1652108857044,
+        "stop" : 1652108857044,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b071a2dde14b86ae76d54dd52275be2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7db1149696a5b10",
+      "status" : "skipped",
+      "statusDetails" : "public void com.tests.mypackage.TestFirstTry.testSelenium() is @Disabled",
+      "time" : {
+        "start" : 1652108857044,
+        "stop" : 1652108857044,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5830a834127e7b4ec3304c9be0df472a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "443cbb5d6b62ba6",
+      "status" : "failed",
+      "statusDetails" : "Error! There is less than 1M searches.. ==> expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1652108859220,
+        "stop" : 1652108862105,
+        "duration" : 2885
+      }
+    } ]
+  }
+}

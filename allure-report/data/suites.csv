@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon May 09 17:07:39 CEST 2022","Mon May 09 17:07:39 CEST 2022","0","","com.tests.mypackage.CheeseTest","","com.tests.mypackage.CheeseTest","testPageObjects","Paragraph search","Testing if we can find a specific paragraph on the wiki page"
+"failed","Mon May 09 17:07:39 CEST 2022","Mon May 09 17:07:42 CEST 2022","2885","","com.tests.mypackage.FailedTest","","com.tests.mypackage.FailedTest","failedTest","failedTest()",""
+"skipped","Mon May 09 17:07:37 CEST 2022","Mon May 09 17:07:37 CEST 2022","0","","com.tests.mypackage.TestFirstTry","","com.tests.mypackage.TestFirstTry","testSelenium","First try",""
+"skipped","Mon May 09 17:07:37 CEST 2022","Mon May 09 17:07:37 CEST 2022","0","","com.tests.mypackage.ParamsTest","","com.tests.mypackage.ParamsTest","test_string_arrays","Random test 2",""
+"skipped","Mon May 09 17:07:37 CEST 2022","Mon May 09 17:07:37 CEST 2022","0","","com.tests.mypackage.ParamsTest","","com.tests.mypackage.ParamsTest","test_int_arrays","Random test 1",""
