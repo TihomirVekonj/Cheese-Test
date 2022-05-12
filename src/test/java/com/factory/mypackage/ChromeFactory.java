@@ -13,9 +13,11 @@ public class ChromeFactory extends BaseFactory implements DriverInterface {
 
     @Override
     public WebDriver setupDriver() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless","--window-size=1920,1200");
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        return maximize(driver);
+
+        return new ChromeDriver(options);
     }
 
     @Override

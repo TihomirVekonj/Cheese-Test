@@ -24,8 +24,7 @@ public class CheeseTest extends TestBase {
     @Story("Testing search")
     @DisplayName("Paragraph search")
     @Description("Testing if we can find a specific paragraph on the wiki page")
-    @Disabled
-    public void testPageObjects() throws Exception {
+    public void testPageObjects() {
 
         getDriver().get(URL);
         GooglePage googlePage = new GooglePage(getDriver());
@@ -35,7 +34,6 @@ public class CheeseTest extends TestBase {
 
         WikiPage wikiPage = resultPage.clickFirstResult();
 
-//        new ScreenShot().takeScreenShotOfVisiblePart(driver);
         Assertions.assertTrue(wikiPage.checkParagraph().contains(TEXT), "This sentence is not present in the desired paragraph..");
 
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
