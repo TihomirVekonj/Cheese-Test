@@ -5,6 +5,7 @@ import com.pages.mypackage.GooglePage;
 import com.pages.mypackage.ResultPage;
 import com.pages.mypackage.WikiPage;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import java.math.BigInteger;
 
@@ -16,6 +17,7 @@ public class FailedTest extends TestBase {
     private final static String URL = "https://www.google.com";
 
     @Test
+    @Disabled
     public void failedTest() {
         getDriver().get(URL);
         GooglePage googlePage = new GooglePage(getDriver());

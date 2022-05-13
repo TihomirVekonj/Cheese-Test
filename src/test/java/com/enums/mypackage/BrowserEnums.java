@@ -4,7 +4,10 @@ public enum BrowserEnums {
         CHROME("chrome"),
         FIREFOX("firefox"),
         EDGE("edge"),
-        SAFARI("safari");
+        SAFARI("safari"),
+        EDGE_HEADLESS("edge_headless"),
+        CHROME_HEADLESS("chrome_headless"),
+        FIREFOX_HEADLESS("firefox_headless");
 
 
         public final String stringBrowser;
